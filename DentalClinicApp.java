@@ -169,8 +169,8 @@ public class DentalClinicApp {
     };
 
     private static final String[] INSERT_SQL = {
-        "INSERT INTO patient VALUES (1,'Nocturnal','Kent', DATE '2002-01-05', NULL, '416-555-0101','123 King St','Toronto','M5B2K3')",
-        "INSERT INTO patient VALUES (2,'Baby','Stickley',DATE '2003-06-17','SunLife','416-555-0102','77 Queen St','Toronto','M5V1A1')",
+        "INSERT INTO patient VALUES (1,'Dorian','Saraci', DATE '2002-01-05', NULL, '416-555-0101','123 King St','Toronto','M5B2K3')",
+        "INSERT INTO patient VALUES (2,'Joe','Fazer',DATE '2003-06-17','SunLife','416-555-0102','77 Queen St','Toronto','M5V1A1')",
 
         "INSERT INTO dentist (dentist_id, name, specialization, phone_number) VALUES (10,'Dr. Eppley','ORTHODONTICS','416-555-0201')",
         "INSERT INTO dentist (dentist_id, name, specialization, phone_number) VALUES (11,'Dr. Taban','SURGEON','416-555-0202')",
@@ -178,8 +178,8 @@ public class DentalClinicApp {
         "INSERT INTO staff (staff_id, name, role, phone_number) VALUES (20,'Ekra Razzak','ASSISTANT','416-555-0301')",
         "INSERT INTO staff (staff_id, name, role, phone_number) VALUES (21,'Zaid Haque','HYGIENIST','416-555-0302')",
 
-        "INSERT INTO supplier VALUES (30,'Sinclair Dental.','Robin Banks','416-555-0400')",
-        "INSERT INTO supplier VALUES (31,'Benco Dental','Jamal Johnson','416-555-0401')",
+        "INSERT INTO supplier VALUES (30,'Sinclair Dental.','Chris Heria','416-555-0400')",
+        "INSERT INTO supplier VALUES (31,'Benco Dental','Austin Dunham','416-555-0401')",
 
         "INSERT INTO supply VALUES (40,'Sterilazation Pouches',12)",
         "INSERT INTO supply VALUES (41,'Face masks',100)",
@@ -426,3 +426,4 @@ public class DentalClinicApp {
         }
     }
 }
+
