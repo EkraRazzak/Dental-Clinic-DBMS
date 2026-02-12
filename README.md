@@ -1,8 +1,6 @@
 # Dental-Clinic-DBMS
-Assignment 9
 
 Connects to Oracle Database using ojdbc17.jar.
-
 
 This program is a Java and Oracle JDBC dental clinic management app that creates the required tables, inserts sample data, and provides a simple Swing GUI for viewing/searching patients and managing appointments. 
 
