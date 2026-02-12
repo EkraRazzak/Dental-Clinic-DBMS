@@ -1,10 +1,6 @@
 import java.sql.*;
 import java.util.Scanner;
 
-/**
- * CPS510 - Assignment 9 
- */
-
 public class DentalClinicApp {
 
     // db connection settings
@@ -427,5 +423,6 @@ public class DentalClinicApp {
         }
     }
 }
+
 
 
