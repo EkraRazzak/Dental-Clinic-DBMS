@@ -9,8 +9,9 @@ public class DentalClinicApp {
 
     // db connection settings
     public static final String DB_URL  = "jdbc:oracle:thin:@//localhost:1522/XEPDB1";
-    public static final String DB_USER = "z1haque";
-    public static final String DB_PASS = "01164930";
+    public static final String DB_USER = System.getenv("DB_USER");
+    public static final String DB_PASS = System.getenv("DB_PASS");
+
 
 
     private static final String[] DROP_SQL = {
@@ -175,8 +176,8 @@ public class DentalClinicApp {
         "INSERT INTO dentist (dentist_id, name, specialization, phone_number) VALUES (10,'Dr. Eppley','ORTHODONTICS','416-555-0201')",
         "INSERT INTO dentist (dentist_id, name, specialization, phone_number) VALUES (11,'Dr. Taban','SURGEON','416-555-0202')",
 
-        "INSERT INTO staff (staff_id, name, role, phone_number) VALUES (20,'Ekra Razzak','ASSISTANT','416-555-0301')",
-        "INSERT INTO staff (staff_id, name, role, phone_number) VALUES (21,'Zaid Haque','HYGIENIST','416-555-0302')",
+        "INSERT INTO staff (staff_id, name, role, phone_number) VALUES (20,'Liam Neeson','ASSISTANT','416-555-0301')",
+        "INSERT INTO staff (staff_id, name, role, phone_number) VALUES (21,'Ian Somerhalder','HYGIENIST','416-555-0302')",
 
         "INSERT INTO supplier VALUES (30,'Sinclair Dental.','Chris Heria','416-555-0400')",
         "INSERT INTO supplier VALUES (31,'Benco Dental','Austin Dunham','416-555-0401')",
@@ -426,4 +427,5 @@ public class DentalClinicApp {
         }
     }
 }
+
 
